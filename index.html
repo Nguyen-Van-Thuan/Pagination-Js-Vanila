@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagination Js</title>
+
+  <!-- Styles CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
+  <style>
+    #data {
+      font-size: 18px;
+    }
+
+    #pagNums,
+    .pagination {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .pagination button {
+      padding: 10px 15px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+
+
+
+
+  <div class="container">
+    <h1>Trang thu - <span id="curPage">...</span></h1>
+
+    <ul id="data">
+      Dang tai du lieu ...
+    </ul>
+
+
+
+
+    <div class="pagination">
+      <div id="pagNums">
+        
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Import axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- Import Main.Js -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
